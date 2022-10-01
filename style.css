@@ -1,0 +1,89 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Slab&display=swap');
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
+
+
+
+  .wrapper{
+    margin: 50px 124px;
+    }
+    
+    h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    }
+    
+    .flex{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    
+    .left-side {
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 662px;
+    height: 374px;
+    font-weight: 400;
+    font-size: 24px;
+    }
+    
+    .right-side{
+     padding-top: 125px;
+    }
+    
+    .navbar{
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-between;
+      width: 65vw;
+    }
+    
+    .navbar h3{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 25px;
+    width: 150px;
+    padding-bottom: 0px;
+    height: 15px;
+    }
+    
+    .navbar p{
+    width: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    }
+    
+    .one{
+      padding-top: 20px;
+    }
+    
+    .two{
+      padding-top: 20px;
+    }
+    
+    .three{
+      padding-top: 20px;
+    }
+    
+
+
+
+@media (min-width: 370px) and (max-width:830px){
+  .right-side{
+    display: none;
+  }
+}
+@media (min-width: 830px) and (max-width:1400px){
+}
+
+/*For telephone size*/
+
+
+  
